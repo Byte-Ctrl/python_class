@@ -1,0 +1,11 @@
+
+
+Health = 20
+if Health <=0:
+    print("Game Over")
+elif Health < 30:
+    print("Critical Health! Find a Potion!")
+elif Health < 70:
+    print("Your hurt, be careful.")
+else:
+    print("You're good to go!")
